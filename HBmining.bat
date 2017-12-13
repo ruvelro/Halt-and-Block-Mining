@@ -55,6 +55,23 @@ echo 0.0.0.0 monerominer.rocks >> %hostspath%
 echo 0.0.0.0 coinlab.biz >> %hostspath%
 echo 0.0.0.0 cloudcoins.co >> %hostspath%
 echo 0.0.0.0 papoto.com >> %hostspath%
+echo 0.0.0.0 ad-miner.com >> %hostspath%
+echo 0.0.0.0 rocks.io >> %hostspath%
+echo 0.0.0.0 cookiescript.info >> %hostspath%
+echo 0.0.0.0 party-nngvitbizn.now.sh >> %hostspath%
+echo 0.0.0.0 cookiescriptcdn.pro >> %hostspath%
+echo 0.0.0.0 yourporn.sexy >> %hostspath%
+echo 0.0.0.0 d3iz6lralvg77g.cloudfront.net >> %hostspath%
+echo 0.0.0.0 hatevery.info >> %hostspath%
+echo 0.0.0.0 elthamely.com >> %hostspath%
+echo 0.0.0.0 minr.pw >> %hostspath%
+echo 0.0.0.0 ron.si >> %hostspath%
+echo 0.0.0.0 kjli.fi >> %hostspath%
+echo 0.0.0.0 nullrefexcep.com >> %hostspath%
+echo 0.0.0.0 cieh.mx >> %hostspath%
+echo 0.0.0.0 185.14.28.10 >> %hostspath%
+echo 0.0.0.0 rove.cl >> %hostspath%
+echo 0.0.0.0 coinimp.com >> %hostspath%
 
 echo ipconfig /flushdns
 
