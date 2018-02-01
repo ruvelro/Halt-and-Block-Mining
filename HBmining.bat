@@ -1,5 +1,15 @@
 @echo off
 
+REM Check administrator privileges
+
+net session >nul 2>&1
+if NOT %errorLevel% == 0 (
+    echo Error: Se necesitan permisos de administrador.
+    echo Pulse una tecla para salir y vuelva a ejecutarlo como administrador.
+    pause >nul
+    exit
+)
+
 set hostspath=%windir%\System32\drivers\etc\hosts
 
 echo #[Halt and Block Mining by RedesZone v.11.11] >> %hostspath%
@@ -73,6 +83,10 @@ echo 0.0.0.0 185.14.28.10 >> %hostspath%
 echo 0.0.0.0 rove.cl >> %hostspath%
 echo 0.0.0.0 coinimp.com >> %hostspath%
 
-echo ipconfig /flushdns
+ipconfig /flushdns
+
+echo Bloqueo aplicado con exito.
+
+pause
 
 exit
